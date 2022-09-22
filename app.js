@@ -1,7 +1,7 @@
 let x=14
 x=90
 var y = 20
-console.log(x+y)
+console.log(x+y-x)
 
 function sumTwoNumbers(){
     return 4+5
@@ -9,7 +9,7 @@ function sumTwoNumbers(){
 
 function changeContent(){
 
-    document.getElementById("toChange").innerHTML="cambiado desde javascript"
+    document.getElementById("toChange").innerHTML="cambiado desde javascript "
 }
 
 function getCostumes(){
@@ -17,7 +17,7 @@ function getCostumes(){
     const $responseContainer=document.getElementById("response");
     // $responseContainer.innerHTML='texto agregado desde javascript';
     $.ajax({
-        url:"https://g389439032223da-bxtdn7v5dsb6tede.adb.us-ashburn-1.oraclecloudapps.com/ords/admin/api/costumes",
+        url:"https://gf65f826b9fa93a-e0n2twaj2ejtoo63.adb.us-ashburn-1.oraclecloudapps.com/ords/admin/api/COSTUMES",
         type:"GET",
         datatype:"JSON",
         success:function(response){
