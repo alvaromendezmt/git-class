@@ -17,7 +17,7 @@ function getCostumes(){
     const $responseContainer=document.getElementById("response");
     // $responseContainer.innerHTML='texto agregado desde javascript';
     $.ajax({
-        url:"https://g389439032223da-bxtdn7v5dsb6tede.adb.us-ashburn-1.oraclecloudapps.com/ords/admin/api/costumes",
+        url:"https://gf65f826b9fa93a-e0n2twaj2ejtoo63.adb.us-ashburn-1.oraclecloudapps.com/ords/admin/api/COSTUMES",
         type:"GET",
         datatype:"JSON",
         success:function(response){
@@ -52,7 +52,7 @@ function createCostume(){
     dataToSend=JSON.stringify(dataToSend);   
 
     const settings = {
-        "url": "https://g389439032223da-bxtdn7v5dsb6tede.adb.us-ashburn-1.oraclecloudapps.com/ords/admin/api/costumes",
+        "url": "https://gf65f826b9fa93a-e0n2twaj2ejtoo63.adb.us-ashburn-1.oraclecloudapps.com/ords/admin/api/COSTUMES",
         "method": "POST",        
         "headers": {
           "Content-Type": "application/json"
